@@ -1,0 +1,4 @@
+[submodule "Movie Gene/TMDBSecret"]
+	path = Movie Gene/TMDBSecret
+	url = https://github.com/krishanp-1986/TMDBSecret.git
+	branch = master

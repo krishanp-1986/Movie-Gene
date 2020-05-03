@@ -15,6 +15,7 @@
 		AD5B95CC245EC77B00794C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5B95CA245EC77B00794C5C /* LaunchScreen.storyboard */; };
 		AD5B95D7245EC77B00794C5C /* Movie_GeneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B95D6245EC77B00794C5C /* Movie_GeneTests.swift */; };
 		AD5B95E2245EC77B00794C5C /* Movie_GeneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B95E1245EC77B00794C5C /* Movie_GeneUITests.swift */; };
+		AD5B95F2245ECDCF00794C5C /* MovieGene.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD5B95F1245ECDCF00794C5C /* MovieGene.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,7 @@
 		AD5B95DD245EC77B00794C5C /* Movie GeneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie GeneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5B95E1245EC77B00794C5C /* Movie_GeneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_GeneUITests.swift; sourceTree = "<group>"; };
 		AD5B95E3245EC77B00794C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD5B95EF245EC80D00794C5C /* MovieGene.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MovieGene.xcconfig; sourceTree = "<group>"; };
+		AD5B95F1245ECDCF00794C5C /* MovieGene.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MovieGene.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +101,13 @@
 		AD5B95BE245EC77A00794C5C /* Movie Gene */ = {
 			isa = PBXGroup;
 			children = (
+				AD5B95F0245ECDCF00794C5C /* TMDBSecret */,
 				AD5B95BF245EC77A00794C5C /* AppDelegate.swift */,
 				AD5B95C1245EC77A00794C5C /* SceneDelegate.swift */,
 				AD5B95C3245EC77A00794C5C /* ContentView.swift */,
 				AD5B95C5245EC77B00794C5C /* Assets.xcassets */,
 				AD5B95CA245EC77B00794C5C /* LaunchScreen.storyboard */,
 				AD5B95CD245EC77B00794C5C /* Info.plist */,
-				AD5B95EF245EC80D00794C5C /* MovieGene.xcconfig */,
 				AD5B95C7245EC77B00794C5C /* Preview Content */,
 			);
 			path = "Movie Gene";
@@ -136,6 +137,14 @@
 				AD5B95E3245EC77B00794C5C /* Info.plist */,
 			);
 			path = "Movie GeneUITests";
+			sourceTree = "<group>";
+		};
+		AD5B95F0245ECDCF00794C5C /* TMDBSecret */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B95F1245ECDCF00794C5C /* MovieGene.xcconfig */,
+			);
+			path = TMDBSecret;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5B95F2245ECDCF00794C5C /* MovieGene.xcconfig in Resources */,
 				AD5B95CC245EC77B00794C5C /* LaunchScreen.storyboard in Resources */,
 				AD5B95C9245EC77B00794C5C /* Preview Assets.xcassets in Resources */,
 				AD5B95C6245EC77B00794C5C /* Assets.xcassets in Resources */,
