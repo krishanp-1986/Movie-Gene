@@ -49,6 +49,7 @@
 		AD5B95DD245EC77B00794C5C /* Movie GeneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie GeneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5B95E1245EC77B00794C5C /* Movie_GeneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_GeneUITests.swift; sourceTree = "<group>"; };
 		AD5B95E3245EC77B00794C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5B95EF245EC80D00794C5C /* MovieGene.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MovieGene.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				AD5B95C5245EC77B00794C5C /* Assets.xcassets */,
 				AD5B95CA245EC77B00794C5C /* LaunchScreen.storyboard */,
 				AD5B95CD245EC77B00794C5C /* Info.plist */,
+				AD5B95EF245EC80D00794C5C /* MovieGene.xcconfig */,
 				AD5B95C7245EC77B00794C5C /* Preview Content */,
 			);
 			path = "Movie Gene";
